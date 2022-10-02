@@ -1,5 +1,5 @@
 ﻿using System;
-using Disemvoweling;
+using Puzzles;
 
 namespace TestCL
 {
@@ -10,9 +10,10 @@ namespace TestCL
             string str;
             do
             {
-                Console.WriteLine("Enter string for Disemvoweling");
+                Console.WriteLine("Enter string");
                 str = Console.ReadLine();
-                Console.WriteLine(Kata.Disemvowel(str));
+                Console.WriteLine("Disemvoweling: " + Kata.Disemvowel(str));
+                Console.WriteLine("AlphabetPosition: " + Kata.AlphabetPosition(str));
             } while (str != "");
 
             Console.ReadLine();

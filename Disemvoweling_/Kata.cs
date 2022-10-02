@@ -1,10 +1,6 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
-namespace Disemvoweling
+namespace Puzzles
 {
     public static class Kata
     {
@@ -22,6 +18,18 @@ namespace Disemvoweling
                 }
             }
             return str;
+        }
+
+        public static string AlphabetPosition(string text)
+        {
+            text = text.ToLower();
+            string result = "";
+            foreach (var symb in text)
+            {
+                if (symb > 96 && symb < 122)
+                    result += ((int)symb - 96).ToString() + " ";
+            }
+            return result.Substring(0, result.Length - 1);
         }
     }
 }

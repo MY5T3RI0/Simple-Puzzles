@@ -5,9 +5,9 @@ VisualStudioVersion = 16.0.30114.105
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestCL", "Disemvoweling\TestCL.csproj", "{C53145D7-093E-4342-A696-5B652D5721F9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Disemvoweling", "Disemvoweling_\Disemvoweling.csproj", "{5618D509-EEA2-4D46-BC92-312CE60D6A31}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Puzzles", "Disemvoweling_\Puzzles.csproj", "{5618D509-EEA2-4D46-BC92-312CE60D6A31}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DisemvowelingTests", "DisemvowelingTests\DisemvowelingTests.csproj", "{8FF384FB-BDE7-4CB1-9E06-ED2F769123EF}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PuzzlesTests", "DisemvowelingTests\PuzzlesTests.csproj", "{8FF384FB-BDE7-4CB1-9E06-ED2F769123EF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

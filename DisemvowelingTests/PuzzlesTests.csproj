@@ -63,9 +63,9 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Disemvoweling_\Disemvoweling.csproj">
+    <ProjectReference Include="..\Disemvoweling_\Puzzles.csproj">
       <Project>{5618D509-EEA2-4D46-BC92-312CE60D6A31}</Project>
-      <Name>Disemvoweling</Name>
+      <Name>Puzzles</Name>
     </ProjectReference>
   </ItemGroup>
   <Choose>
