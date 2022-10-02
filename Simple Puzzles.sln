@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestCL", "Disemvoweling\Tes
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Disemvoweling", "Disemvoweling_\Disemvoweling.csproj", "{5618D509-EEA2-4D46-BC92-312CE60D6A31}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DisemvowelingTests", "DisemvowelingTests\DisemvowelingTests.csproj", "{8FF384FB-BDE7-4CB1-9E06-ED2F769123EF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{5618D509-EEA2-4D46-BC92-312CE60D6A31}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5618D509-EEA2-4D46-BC92-312CE60D6A31}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5618D509-EEA2-4D46-BC92-312CE60D6A31}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8FF384FB-BDE7-4CB1-9E06-ED2F769123EF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8FF384FB-BDE7-4CB1-9E06-ED2F769123EF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8FF384FB-BDE7-4CB1-9E06-ED2F769123EF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8FF384FB-BDE7-4CB1-9E06-ED2F769123EF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
