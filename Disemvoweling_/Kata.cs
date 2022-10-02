@@ -26,10 +26,10 @@ namespace Puzzles
             string result = "";
             foreach (var symb in text)
             {
-                if (symb > 96 && symb < 122)
+                if (symb > 96 && symb <= 122)
                     result += ((int)symb - 96).ToString() + " ";
             }
-            return result.Substring(0, result.Length - 1);
+            return !string.IsNullOrWhiteSpace(result) ? result.Substring(0, result.Length - 1) : "";
         }
     }
 }
