@@ -1,10 +1,7 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using Disemvoweling;
 
-namespace Disemvoweling
+namespace TestCL
 {
     class Program
     {
@@ -15,19 +12,7 @@ namespace Disemvoweling
             {
                 Console.WriteLine("Enter string for Disemvoweling");
                 str = Console.ReadLine();
-                string VOWELS = "AEIOUaeiou";
-                foreach (var item in str)
-                {
-                    foreach (var item2 in VOWELS)
-                    {
-                        if (item == item2)
-                        {
-                            str = str.Replace(item.ToString(), "");
-                        }
-                    }
-                }
-
-                Console.WriteLine(str);
+                Console.WriteLine(Kata.Disemvowel(str));
             } while (str != "");
 
             Console.ReadLine();
