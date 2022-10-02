@@ -2,7 +2,7 @@
 
 namespace Puzzles
 {
-    public static class Kata
+    public static class StringPuzzles
     {
         public static string Disemvowel(string str)
         {

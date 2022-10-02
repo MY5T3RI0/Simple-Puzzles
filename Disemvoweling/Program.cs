@@ -12,8 +12,12 @@ namespace TestCL
             {
                 Console.WriteLine("Enter string");
                 str = Console.ReadLine();
-                Console.WriteLine("Disemvoweling: " + Kata.Disemvowel(str));
-                Console.WriteLine("AlphabetPosition: " + Kata.AlphabetPosition(str));
+                var str2 = StringPuzzles.Disemvowel(str);
+                Console.WriteLine("Disemvoweling: " + str2);
+                var str3 = StringPuzzles.AlphabetPosition(str2);
+                Console.WriteLine("AlphabetPosition: " + str3);
+                var str4 = Convert.ToInt32(str3.Replace(" ", ""));
+                Console.WriteLine(NumberPuzzles.Persistence(str4));
             } while (str != "");
 
             Console.ReadLine();
